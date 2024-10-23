@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>Positioning in CSS</title>
+        <style>
+            div{
+                right:30px;
+                border:3px solid rosybrown;
+            }
+
+            div.absolute{
+                position:absolute;
+                left:30px;
+                border:3px solid rosybrown;
+            }
+
+            div.relative{
+                position:fixed;
+                left:100px;
+                border:3px solid rosybrown;
+            }
+
+            div.fixed{
+                position:fixed;
+                top:0;
+                right:20pxx;
+                width:300px;
+                border:3px solid rosybrown;
+            }
+
+            div.sticky{
+                position:sticky;
+                left:20px;
+                width: 100px;
+                border:3px solid rosybrown;
+            }
+            .O1{
+                opacity: 0.1;
+            }
+            .O3{
+                opacity: 0.3;
+            }
+            .O8{
+                opacity: 0.8;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>My Highschool</h2>
+        <div>
+         HeadTeacher-Mr Ward
+        </div>
+        <div class="sticky">
+         Form tutor-Miss Kettles
+        </div>
+        <div class="relative">
+         My Fvourite Teacher-Mr Lam
+         <div class="absolute">
+         Year 9
+         </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="fixed">
+         Set 2, Band H 
+        </div>
+        <div class="O1">
+            We co-operate
+        </div>
+        <div class="O3">
+            we pioneer
+        </div>
+        <div class="O8">
+            we belong
+        </div>
+    </body>
+</html>
